@@ -5,9 +5,16 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="robots" content="noindex, nofollow" />
   <title>{{ page.title | default: "Emergency" }}</title>
+
+  <!-- minima のCSS -->
   <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
 </head>
 <body>
-  {{ content }}
+  <!-- minima が想定する中央寄せの包み -->
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      {{ content }}
+    </div>
+  </main>
 </body>
 </html>
