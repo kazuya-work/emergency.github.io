@@ -1,7 +1,6 @@
 ---
-layout: null
+layout: emergency
 title: Emergency Contact
-robots: noindex
 ---
 
 # 緊急連絡先（Emergency Contact）
